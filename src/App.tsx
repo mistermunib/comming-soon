@@ -130,7 +130,14 @@ function App() {
 
       {/* Footer */}
       <footer className="relative w-full py-6 text-center text-white/60 glass-effect mt-20">
-        <p>© 2024 AIReasearchersMania. All rights reserved.</p>
+        <p>© 2025 AIReasearchersMania. All rights reserved.</p>
+        <button
+                  type="submit"
+                  className="absolute right-5 top-1/2 transform -translate-y-1/2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white px-6 py-2 rounded-lg transition duration-300 flex items-center space-x-2 group"
+                >
+                  <a href="mailto:mistermunib@aireaseachersmania.tech">Contact Us</a>
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </button>
       </footer>
     </div>
   );
